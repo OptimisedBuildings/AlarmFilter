@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="alarmFilter-rt" bajaVersion="0" vendor="OptimisedBuildingsLtd" vendorVersion="1.0" description="Alarm Filtering Module - seperate alarms based on Regex expressions" preferredSymbol="af" nre="true" autoload="true" installable="true" buildMillis="1580403246612" buildHost="Reevsey" moduleName="alarmFilter" runtimeProfile="rt">
+ <dependencies>
+  <dependency name="bql-rt" vendor="Tridium" vendorVersion="4.7"/>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.7"/>
+  <dependency name="alarm-rt" vendor="Tridium" vendorVersion="4.7"/>
+ </dependencies>
+ <dirs/>
+ <types>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BAlarmFilter" name="AlarmFilter"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule" name="AlarmFilteringModule"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BCheck" name="Check"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BCheckAnd" name="CheckAnd"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BCheckNot" name="CheckNot"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BCheckOr" name="CheckOr"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BDataList" name="DataList"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BDataListCheck" name="DataListCheck"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BRegexCheck" name="RegexCheck"/>
+ </types>
+ <permissions>
+  <niagara-permission-groups type="all"/>
+  <niagara-permission-groups type="workbench"/>
+  <niagara-permission-groups type="station"/>
+ </permissions>
+</module>

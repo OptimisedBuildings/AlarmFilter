@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajaObjectGraph version="4.0" reversibleEncodingKeySource="none" FIPSEnabled="false" reversibleEncodingValidator="[null.1]=" >
+<p m="b=baja" t="b:UnrestrictedFolder">
+    <p m="af=alarmFilter" t="af:AlarmFilteringModule" n="AlarmFilteringModule" />
+    <p m="af=alarmFilter" t="af:AlarmFilter" n="AlarmFilter" />
+    <p m="af=alarmFilter" t="af:DataListCheck" n="DataListCheck" />
+    <p m="af=alarmFilter" t="af:RegexCheck" n="RegexCheck" />
+    <p m="af=alarmFilter" t="af:CheckAnd" n="CheckAnd" />
+    <p m="af=alarmFilter" t="af:CheckOr" n="CheckOr" />
+    <p m="af=alarmFilter" t="af:CheckNot" n="CheckNot" />
+</p>
+</bajaObjectGraph>

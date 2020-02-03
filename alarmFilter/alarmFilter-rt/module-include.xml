@@ -1,0 +1,15 @@
+<!-- Module Include File -->
+<!-- Types -->
+<types>
+  <!-- Type Example:<type name="MyClass" class="com.acme.BMyClass"/> -->
+  <!--com.optimisedbuildingsltd.alarmFilter-->
+  <type class="com.optimisedbuildingsltd.alarmFilter.BAlarmFilter" name="AlarmFilter"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule" name="AlarmFilteringModule"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BCheck" name="Check"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BCheckAnd" name="CheckAnd"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BCheckNot" name="CheckNot"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BCheckOr" name="CheckOr"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BDataList" name="DataList"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BDataListCheck" name="DataListCheck"/>
+  <type class="com.optimisedbuildingsltd.alarmFilter.BRegexCheck" name="RegexCheck"/>
+</types>

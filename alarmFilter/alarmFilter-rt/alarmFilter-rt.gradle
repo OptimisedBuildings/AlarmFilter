@@ -1,0 +1,28 @@
+/* Module Build File */
+
+description     = "Alarm Filtering Module - seperate alarms based on Regex expressions"
+ext {
+}
+niagaraModule {
+  moduleName = "alarmFilter"
+  preferredSymbol = "af"
+  runtimeProfile = "rt"
+}
+
+dependencies {
+  compile "Tridium:nre:4.7"
+  compile "Tridium:baja:4.7"
+  compile "Tridium:alarm-rt:4.7"
+  compile "Tridium:bql-rt:4.7"
+}
+
+moduleTestJar {
+  from('srcTest') {
+  }
+}
+
+jar {
+  from('src') {
+    include 'res/**/*.*'
+  }
+}
