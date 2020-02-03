@@ -8,5 +8,11 @@
     <p m="af=alarmFilter" t="af:CheckAnd" n="CheckAnd" />
     <p m="af=alarmFilter" t="af:CheckOr" n="CheckOr" />
     <p m="af=alarmFilter" t="af:CheckNot" n="CheckNot" />
+    <p m="b=baja" t="b:UnrestrictedFolder" n = "Alarm">
+        <p m="a=alarm" t="a:AlarmConsole" n="AlarmConsole"/>
+        <p m="a=alarm" t="a:AlarmClass" n="AlarmClass"/>
+        <p m="a=alarm" t="a:AlarmClassFolder" n="AlarmClassFolder"/>
+        <p m="e=email" t="e:EmailRecipient" n="EmailRecipient"/>
+    </p>
 </p>
 </bajaObjectGraph>
