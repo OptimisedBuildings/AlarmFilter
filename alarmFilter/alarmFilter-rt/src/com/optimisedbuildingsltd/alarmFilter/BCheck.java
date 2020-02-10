@@ -77,6 +77,7 @@ public class BCheck extends BComponent {
   public Logger logger = Logger.getLogger("ob.alarmFilter");
 
     public BBoolean doCheck(BAlarmRecord record){
+      //Generic class so other components can inherit. Could have been done with an interface
       this.setLastCheckValue(false);
         return BBoolean.FALSE;
     }

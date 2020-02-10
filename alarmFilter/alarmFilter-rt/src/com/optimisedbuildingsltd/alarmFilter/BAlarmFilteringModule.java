@@ -1,10 +1,8 @@
 package com.optimisedbuildingsltd.alarmFilter;
 
-import javax.baja.alarm.BAlarmClassFolder;
 import javax.baja.alarm.BAlarmRecord;
 import javax.baja.naming.BOrd;
 import javax.baja.nre.annotations.NiagaraAction;
-import javax.baja.nre.annotations.NiagaraTopic;
 import javax.baja.nre.annotations.NiagaraType;
 import javax.baja.sys.*;
 import java.util.logging.Logger;
@@ -47,9 +45,11 @@ public class BAlarmFilteringModule extends BComponent {
 
 /*+ ------------ END BAJA AUTO GENERATED CODE -------------- +*/
 
-    public Logger logger = Logger.getLogger("ob.alarmFilter");
+    private Logger logger = Logger.getLogger("ob.alarmFilter");
 
     public void doRouteAlarm(BAlarmRecord record){
+
+        //Method simply passes alarms to call AlarmFilter children
         logger.info("alarm received");
         BComponent[] children = this.getChildComponents();
         for(BComponent child : children){

@@ -75,7 +75,7 @@ public class BDataList extends BComponent {
 
 /*+ ------------ END BAJA AUTO GENERATED CODE -------------- +*/
 
-    public Logger logger = Logger.getLogger("ob.alarmFilter");
+    private Logger logger = Logger.getLogger("ob.alarmFilter");
 
     public void doUpdateArray(BString input){
         this.setDataArray(input.getString());
@@ -90,6 +90,9 @@ public class BDataList extends BComponent {
     }
 
     public boolean matchesItemInArray(String test){
+
+        //Contains an array of values. This is used to check if the property contains an item on the list.
+        //Example uses of this are controller ID's, site numbers, priorities
         String[] array = this.getDataArray().split(",");
         for(String item : array){
             logger.info("does " + test + "contain" + item + "?");

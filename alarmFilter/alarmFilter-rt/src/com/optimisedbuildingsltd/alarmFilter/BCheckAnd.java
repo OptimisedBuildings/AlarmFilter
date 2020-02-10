@@ -24,9 +24,10 @@ public class BCheckAnd extends BCheck {
   public static final Type TYPE = Sys.loadType(BCheckAnd.class);
 
 /*+ ------------ END BAJA AUTO GENERATED CODE -------------- +*/
-public Logger logger = Logger.getLogger("ob.alarmFilter");
+    private Logger logger = Logger.getLogger("ob.alarmFilter");
 
     public BBoolean doCheck(BAlarmRecord record){
+        //Method returns the And'ed result of all checks below. Returns false if no checks are found below.
         boolean check = true;
         boolean atLeastOne = false;
         BComponent[] children = this.getChildComponents();

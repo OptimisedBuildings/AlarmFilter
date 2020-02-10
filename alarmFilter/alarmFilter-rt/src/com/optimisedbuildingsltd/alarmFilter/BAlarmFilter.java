@@ -8,11 +8,9 @@ import javax.baja.nre.annotations.NiagaraTopic;
 import javax.baja.nre.annotations.NiagaraType;
 import javax.baja.sys.*;
 import javax.baja.timezone.BTimeZone;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import static javax.baja.alarm.BAlarmClass.ESCALATED;
-import static javax.baja.alarm.BAlarmClass.priority;
 
 @NiagaraType
 
@@ -101,9 +99,15 @@ public class BAlarmFilter extends BComponent {
 
 /*+ ------------ END BAJA AUTO GENERATED CODE -------------- +*/
 
-    public Logger logger = Logger.getLogger("ob.alarmFilter");
+    private Logger logger = Logger.getLogger("ob.alarmFilter");
 
     public void doRouteAlarm(BAlarmRecord alarmRecord){
+        //Most of this method is borrowed from the inherited alarm class, but with a few modifications (priority override, alarm checking etc)
+        //This component takes in an alarm from the alarmFilteringModule and checks it against all child checks. If none are found it passes
+        //automatically. If the checks pass, the alarm is output with a corrected priority. If the configured priority is -1 then it does not
+        //remap the priority.
+
+
         boolean check = true;
         logger.info("Running check for " + this.getDisplayName(null));
         BComponent[] children = this.getChildComponents();
@@ -115,18 +119,18 @@ public class BAlarmFilter extends BComponent {
             } catch (Exception e){logger.severe("Failure : " + e.toString());}
         }
         logger.info("final result " + check);
+
+
         if(!check){return;}
 
-        //BAlarmClass
-
-        //alarmRecord.setPriority(this.getPriority());
 
             if (!this.isRunning()) {
                 return;
             }
 
-            BSourceState newState = alarmRecord.getSourceState();
-            alarmRecord.setPriority(this.getPriority());
+            if(!(this.getPriority() == -1)) {
+                alarmRecord.setPriority(this.getPriority());
+            }
             alarmRecord.setAlarmClass(this.getName());
             alarmRecord.setAlarmData(BFacets.make(alarmRecord.getAlarmData(), "TimeZone", BTimeZone.getLocal()));
 

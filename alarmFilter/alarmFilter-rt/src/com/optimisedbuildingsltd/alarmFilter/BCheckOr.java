@@ -23,9 +23,11 @@ public class BCheckOr extends BCheck {
   public static final Type TYPE = Sys.loadType(BCheckOr.class);
 
 /*+ ------------ END BAJA AUTO GENERATED CODE -------------- +*/
-public Logger logger = Logger.getLogger("ob.alarmFilter");
+    private Logger logger = Logger.getLogger("ob.alarmFilter");
 
     public BBoolean doCheck(BAlarmRecord record){
+        //Returns the Or'ed value of the child checks. For speed, returns immediately as soon as a TRUE value is found.
+        //Returns false if no checks found.
         boolean check = false;
         BComponent[] children = this.getChildComponents();
         for(BComponent child:children){

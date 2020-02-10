@@ -23,9 +23,11 @@ public class BCheckNot extends BCheck {
   public static final Type TYPE = Sys.loadType(BCheckNot.class);
 
 /*+ ------------ END BAJA AUTO GENERATED CODE -------------- +*/
-public Logger logger = Logger.getLogger("ob.alarmFilter");
+    private Logger logger = Logger.getLogger("ob.alarmFilter");
 
     public BBoolean doCheck(BAlarmRecord record){
+        //Method returns the inverted (Not'ed) result of the first check child. This method will ignore other children.
+        //Returns false if no checks found
         BComponent[] children = this.getChildComponents();
         for(BComponent child:children){
             try{

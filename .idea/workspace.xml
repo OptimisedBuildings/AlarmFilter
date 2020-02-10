@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4b91216e-1884-412d-b565-a09d26f14252" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BAlarmFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BAlarmFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BAlarmFilteringModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BAlarmFilteringModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckAnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckAnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckNot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckOr.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckOr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BDataList.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BDataList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

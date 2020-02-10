@@ -83,9 +83,11 @@ public class BRegexCheck extends BCheck {
 
 /*+ ------------ END BAJA AUTO GENERATED CODE -------------- +*/
 
-  public Logger logger = Logger.getLogger("ob.alarmFilter");
+  private Logger logger = Logger.getLogger("ob.alarmFilter");
 
     public BBoolean doCheck(BAlarmRecord record){
+
+      //Method checks property against a user entered Regex function. Returns true if matched.
       String[] properties = this.getProperty().split("\\.");
       BObject currentTarget = (BValue)record;
 
@@ -97,6 +99,7 @@ public class BRegexCheck extends BCheck {
         } catch (ClassCastException cce){
           currentTarget = ((BFacets)currentTarget).get(property);
         }
+        //No further catch here as it will catch out at parent layer
         if(null == currentTarget){
           return BBoolean.FALSE;
         }

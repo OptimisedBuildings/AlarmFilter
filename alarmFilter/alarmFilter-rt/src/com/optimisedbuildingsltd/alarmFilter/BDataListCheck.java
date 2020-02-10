@@ -85,9 +85,11 @@ public class BDataListCheck extends BCheck {
 
 /*+ ------------ END BAJA AUTO GENERATED CODE -------------- +*/
 
-  public Logger logger = Logger.getLogger("ob.alarmFilter");
+  private Logger logger = Logger.getLogger("ob.alarmFilter");
 
     public BBoolean doCheck(BAlarmRecord record){
+      //Example uses of this are controller ID's, site numbers, priorities
+      //Returns true if property contains a value found in the list.
       logger.info("matching '" + record.get(this.getProperty()).toString() + "' to '" + this.getDataList() + "'");
         boolean check = this.getDataList().matchesItemInArray(record.get(this.getProperty()).toString());
         this.setLastCheckValue(check);
