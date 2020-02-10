@@ -48,7 +48,7 @@ public class BAlarmFilteringModule extends BComponent {
     private Logger logger = Logger.getLogger("ob.alarmFilter");
 
     public void doRouteAlarm(BAlarmRecord record){
-
+        //TODO ADD LICESNING METHOD HERE
         //Method simply passes alarms to call AlarmFilter children
         logger.info("alarm received");
         BComponent[] children = this.getChildComponents();
