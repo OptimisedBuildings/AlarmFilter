@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b91216e-1884-412d-b565-a09d26f14252" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0.2/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0.2/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0.2/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0.2/taskHistory/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BAlarmFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BAlarmFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-doc/alarmFilter-doc.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-doc/alarmFilter-doc.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/build/libs/alarmFilter-rt-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/build/libs/alarmFilter-rt-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/build/tmp/jar/module.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/build/tmp/jar/module.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BAlarmFilteringModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BAlarmFilteringModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckAnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckAnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckNot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckOr.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BCheckOr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BDataList.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarmFilter/alarmFilter-rt/src/com/optimisedbuildingsltd/alarmFilter/BDataList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +50,30 @@
                 <item name="niagara" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="niagara" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="niagara" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="niagara" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="niagara" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="niagara" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -114,6 +143,63 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="alarmFiltering [cleanBajadocOutputDir]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cleanBajadocOutputDir" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="alarmFiltering [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="alarmFiltering [compileNiagaraModuleTestJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileNiagaraModuleTestJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="alarmFiltering [slotomatic]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -137,6 +223,9 @@
       <list>
         <item itemvalue="Gradle.alarmFiltering [build]" />
         <item itemvalue="Gradle.alarmFiltering [slotomatic]" />
+        <item itemvalue="Gradle.alarmFiltering [compileNiagaraModuleTestJava]" />
+        <item itemvalue="Gradle.alarmFiltering [cleanBajadocOutputDir]" />
+        <item itemvalue="Gradle.alarmFiltering [clean]" />
       </list>
     </recent_temporary>
   </component>

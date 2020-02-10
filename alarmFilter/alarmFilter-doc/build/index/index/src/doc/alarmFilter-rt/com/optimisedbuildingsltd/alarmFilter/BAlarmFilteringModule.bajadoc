@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajadoc version="2.0" createdBy="niagara-baja-doclet-1.0.8" createdAt="10-Feb-2020" createdOn="Reevsey">
+<class module="alarmFilter" runtimeProfile="rt" qualifiedName="com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule" name="BAlarmFilteringModule" packageName="com.optimisedbuildingsltd.alarmFilter" public="true">
+<description/>
+<extends>
+<type class="javax.baja.sys.BComponent"/>
+</extends>
+<property name="licensed" flags="r">
+<type class="boolean"/>
+<description>
+Slot for the &lt;code&gt;licensed&lt;/code&gt; property.
+</description>
+<tag name="@see">#getLicensed</tag>
+<tag name="@see">#setLicensed</tag>
+</property>
+
+<action name="routeAlarm" flags="">
+<parameter name="parameter">
+<type class="javax.baja.alarm.BAlarmRecord"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+<description>
+Slot for the &lt;code&gt;routeAlarm&lt;/code&gt; action.
+</description>
+<tag name="@see">#routeAlarm(BAlarmRecord parameter)</tag>
+</action>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule() -->
+<constructor name="BAlarmFilteringModule" public="true">
+<description/>
+</constructor>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule.getLicensed() -->
+<method name="getLicensed"  public="true">
+<description>
+Get the &lt;code&gt;licensed&lt;/code&gt; property.
+</description>
+<tag name="@see">#licensed</tag>
+<return>
+<type class="boolean"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule.setLicensed(boolean) -->
+<method name="setLicensed"  public="true">
+<description>
+Set the &lt;code&gt;licensed&lt;/code&gt; property.
+</description>
+<tag name="@see">#licensed</tag>
+<parameter name="v">
+<type class="boolean"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule.routeAlarm(javax.baja.alarm.BAlarmRecord) -->
+<method name="routeAlarm"  public="true">
+<description>
+Invoke the &lt;code&gt;routeAlarm&lt;/code&gt; action.
+</description>
+<tag name="@see">#routeAlarm</tag>
+<parameter name="parameter">
+<type class="javax.baja.alarm.BAlarmRecord"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule.getType() -->
+<method name="getType"  public="true">
+<annotation><type class="java.lang.Override"/>
+</annotation>
+<description/>
+<return>
+<type class="javax.baja.sys.Type"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule.doRouteAlarm(javax.baja.alarm.BAlarmRecord) -->
+<method name="doRouteAlarm"  public="true">
+<description/>
+<parameter name="record">
+<type class="javax.baja.alarm.BAlarmRecord"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule.getIcon() -->
+<method name="getIcon"  public="true">
+<description/>
+<return>
+<type class="javax.baja.sys.BIcon"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule.licensed -->
+<field name="licensed"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Property"/>
+<description>
+Slot for the &lt;code&gt;licensed&lt;/code&gt; property.
+</description>
+<tag name="@see">#getLicensed</tag>
+<tag name="@see">#setLicensed</tag>
+</field>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule.routeAlarm -->
+<field name="routeAlarm"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Action"/>
+<description>
+Slot for the &lt;code&gt;routeAlarm&lt;/code&gt; action.
+</description>
+<tag name="@see">#routeAlarm(BAlarmRecord parameter)</tag>
+</field>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilteringModule.TYPE -->
+<field name="TYPE"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Type"/>
+<description/>
+</field>
+
+</class>
+</bajadoc>

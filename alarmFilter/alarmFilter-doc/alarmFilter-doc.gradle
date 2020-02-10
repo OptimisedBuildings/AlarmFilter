@@ -1,0 +1,30 @@
+/* Module Build File */
+
+apply from: gradle.ext.niagara_home + "/etc/gradle/docmodule.gradle"
+
+niagaraModule {
+    moduleName = "alarmFilter"
+    runtimeProfile = "doc"
+}
+
+
+moduleTestJar {
+    from('srcTest') {
+    }
+}
+
+jar {
+    from('src') {
+        include 'doc/*.html'
+        include 'doc/toc.xml'
+    }
+}
+
+bajadoc {
+    source project(":alarmFilter-rt")
+
+    includePackage {
+        name = "com.optimisedbuildingsltd.alarmFilter"
+        bajaOnly = false
+    }
+}

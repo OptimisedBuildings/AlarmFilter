@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajadoc version="2.0" createdBy="niagara-baja-doclet-1.0.8" createdAt="10-Feb-2020" createdOn="Reevsey">
+<class module="alarmFilter" runtimeProfile="rt" qualifiedName="com.optimisedbuildingsltd.alarmFilter.BCheck" name="BCheck" packageName="com.optimisedbuildingsltd.alarmFilter" public="true">
+<description/>
+<extends>
+<type class="javax.baja.sys.BComponent"/>
+</extends>
+<property name="lastCheckValue" flags="">
+<type class="boolean"/>
+<description>
+Slot for the &lt;code&gt;lastCheckValue&lt;/code&gt; property.
+</description>
+<tag name="@see">#getLastCheckValue</tag>
+<tag name="@see">#setLastCheckValue</tag>
+</property>
+
+<action name="check" flags="">
+<parameter name="parameter">
+<type class="javax.baja.alarm.BAlarmRecord"/>
+</parameter>
+<return>
+<type class="javax.baja.sys.BBoolean"/>
+</return>
+<description>
+Slot for the &lt;code&gt;check&lt;/code&gt; action.
+</description>
+<tag name="@see">#check(BAlarmRecord parameter)</tag>
+</action>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BCheck() -->
+<constructor name="BCheck" public="true">
+<description/>
+</constructor>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BCheck.getLastCheckValue() -->
+<method name="getLastCheckValue"  public="true">
+<description>
+Get the &lt;code&gt;lastCheckValue&lt;/code&gt; property.
+</description>
+<tag name="@see">#lastCheckValue</tag>
+<return>
+<type class="boolean"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BCheck.setLastCheckValue(boolean) -->
+<method name="setLastCheckValue"  public="true">
+<description>
+Set the &lt;code&gt;lastCheckValue&lt;/code&gt; property.
+</description>
+<tag name="@see">#lastCheckValue</tag>
+<parameter name="v">
+<type class="boolean"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BCheck.check(javax.baja.alarm.BAlarmRecord) -->
+<method name="check"  public="true">
+<description>
+Invoke the &lt;code&gt;check&lt;/code&gt; action.
+</description>
+<tag name="@see">#check</tag>
+<parameter name="parameter">
+<type class="javax.baja.alarm.BAlarmRecord"/>
+</parameter>
+<return>
+<type class="javax.baja.sys.BBoolean"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BCheck.getType() -->
+<method name="getType"  public="true">
+<annotation><type class="java.lang.Override"/>
+</annotation>
+<description/>
+<return>
+<type class="javax.baja.sys.Type"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BCheck.doCheck(javax.baja.alarm.BAlarmRecord) -->
+<method name="doCheck"  public="true">
+<description/>
+<parameter name="record">
+<type class="javax.baja.alarm.BAlarmRecord"/>
+</parameter>
+<return>
+<type class="javax.baja.sys.BBoolean"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BCheck.lastCheckValue -->
+<field name="lastCheckValue"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Property"/>
+<description>
+Slot for the &lt;code&gt;lastCheckValue&lt;/code&gt; property.
+</description>
+<tag name="@see">#getLastCheckValue</tag>
+<tag name="@see">#setLastCheckValue</tag>
+</field>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BCheck.check -->
+<field name="check"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Action"/>
+<description>
+Slot for the &lt;code&gt;check&lt;/code&gt; action.
+</description>
+<tag name="@see">#check(BAlarmRecord parameter)</tag>
+</field>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BCheck.TYPE -->
+<field name="TYPE"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Type"/>
+<description/>
+</field>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BCheck.logger -->
+<field name="logger"  public="true">
+<type class="java.util.logging.Logger"/>
+<description/>
+</field>
+
+</class>
+</bajadoc>

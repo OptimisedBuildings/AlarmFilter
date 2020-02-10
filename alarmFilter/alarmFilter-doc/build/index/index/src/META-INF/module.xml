@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="alarmFilter-doc" bajaVersion="0" vendor="OptimisedBuildingsLtd" vendorVersion="1.0" description="null" preferredSymbol="alarmFilter-doc" nre="true" autoload="true" installable="true" buildMillis="1581352682575" buildHost="Reevsey" moduleName="alarmFilter" runtimeProfile="doc">
+ <dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.0"/>
+ </dependencies>
+ <dirs/>
+</module>
