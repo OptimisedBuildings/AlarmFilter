@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajadoc version="2.0" createdBy="niagara-baja-doclet-1.0.8" createdAt="10-Feb-2020" createdOn="Reevsey">
+<class module="alarmFilter" runtimeProfile="rt" qualifiedName="com.optimisedbuildingsltd.alarmFilter.BAlarmFilter" name="BAlarmFilter" packageName="com.optimisedbuildingsltd.alarmFilter" public="true">
+<description/>
+<extends>
+<type class="javax.baja.sys.BComponent"/>
+</extends>
+<property name="priority" flags="">
+<type class="int"/>
+<description>
+Slot for the &lt;code&gt;priority&lt;/code&gt; property.
+</description>
+<tag name="@see">#getPriority</tag>
+<tag name="@see">#setPriority</tag>
+</property>
+
+<action name="routeAlarm" flags="">
+<parameter name="parameter">
+<type class="javax.baja.alarm.BAlarmRecord"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+<description>
+Slot for the &lt;code&gt;routeAlarm&lt;/code&gt; action.
+</description>
+<tag name="@see">#routeAlarm(BAlarmRecord parameter)</tag>
+</action>
+
+<topic name="alarm" flags="">
+<eventType>
+<type class="javax.baja.alarm.BAlarmRecord"/>
+</eventType><description>
+Slot for the &lt;code&gt;alarm&lt;/code&gt; topic.
+</description>
+<tag name="@see">#fireAlarm</tag>
+</topic>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter() -->
+<constructor name="BAlarmFilter" public="true">
+<description/>
+</constructor>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter.getPriority() -->
+<method name="getPriority"  public="true">
+<description>
+Get the &lt;code&gt;priority&lt;/code&gt; property.
+</description>
+<tag name="@see">#priority</tag>
+<return>
+<type class="int"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter.setPriority(int) -->
+<method name="setPriority"  public="true">
+<description>
+Set the &lt;code&gt;priority&lt;/code&gt; property.
+</description>
+<tag name="@see">#priority</tag>
+<parameter name="v">
+<type class="int"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter.routeAlarm(javax.baja.alarm.BAlarmRecord) -->
+<method name="routeAlarm"  public="true">
+<description>
+Invoke the &lt;code&gt;routeAlarm&lt;/code&gt; action.
+</description>
+<tag name="@see">#routeAlarm</tag>
+<parameter name="parameter">
+<type class="javax.baja.alarm.BAlarmRecord"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter.fireAlarm(javax.baja.alarm.BAlarmRecord) -->
+<method name="fireAlarm"  public="true">
+<description>
+Fire an event for the &lt;code&gt;alarm&lt;/code&gt; topic.
+</description>
+<tag name="@see">#alarm</tag>
+<parameter name="event">
+<type class="javax.baja.alarm.BAlarmRecord"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter.getType() -->
+<method name="getType"  public="true">
+<annotation><type class="java.lang.Override"/>
+</annotation>
+<description/>
+<return>
+<type class="javax.baja.sys.Type"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter.doRouteAlarm(javax.baja.alarm.BAlarmRecord) -->
+<method name="doRouteAlarm"  public="true">
+<description/>
+<parameter name="alarmRecord">
+<type class="javax.baja.alarm.BAlarmRecord"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter.getIcon() -->
+<method name="getIcon"  public="true">
+<description/>
+<return>
+<type class="javax.baja.sys.BIcon"/>
+</return>
+</method>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter.priority -->
+<field name="priority"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Property"/>
+<description>
+Slot for the &lt;code&gt;priority&lt;/code&gt; property.
+</description>
+<tag name="@see">#getPriority</tag>
+<tag name="@see">#setPriority</tag>
+</field>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter.routeAlarm -->
+<field name="routeAlarm"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Action"/>
+<description>
+Slot for the &lt;code&gt;routeAlarm&lt;/code&gt; action.
+</description>
+<tag name="@see">#routeAlarm(BAlarmRecord parameter)</tag>
+</field>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter.alarm -->
+<field name="alarm"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Topic"/>
+<description>
+Slot for the &lt;code&gt;alarm&lt;/code&gt; topic.
+</description>
+<tag name="@see">#fireAlarm</tag>
+</field>
+
+<!-- com.optimisedbuildingsltd.alarmFilter.BAlarmFilter.TYPE -->
+<field name="TYPE"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Type"/>
+<description/>
+</field>
+
+</class>
+</bajadoc>

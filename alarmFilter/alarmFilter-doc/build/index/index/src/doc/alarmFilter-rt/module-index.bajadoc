@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajadoc version="2.0" createdBy="niagara-baja-doclet-1.0.8" createdAt="10-Feb-2020" createdOn="Reevsey">
+<module name="alarmFilter" runtimeProfile="rt" bajaVersion="0" vendor="OptimisedBuildingsLtd" vendorVersion="1.0">
+<description>Alarm Filtering Module - seperate alarms based on Regex expressions</description>
+<package name="com.optimisedbuildingsltd.alarmFilter"/>
+<class packageName="com.optimisedbuildingsltd.alarmFilter" name="BAlarmFilter"></class>
+<class packageName="com.optimisedbuildingsltd.alarmFilter" name="BAlarmFilteringModule"></class>
+<class packageName="com.optimisedbuildingsltd.alarmFilter" name="BCheck"></class>
+<class packageName="com.optimisedbuildingsltd.alarmFilter" name="BCheckAnd"></class>
+<class packageName="com.optimisedbuildingsltd.alarmFilter" name="BCheckNot"></class>
+<class packageName="com.optimisedbuildingsltd.alarmFilter" name="BCheckOr"></class>
+<class packageName="com.optimisedbuildingsltd.alarmFilter" name="BDataList"></class>
+<class packageName="com.optimisedbuildingsltd.alarmFilter" name="BDataListCheck"></class>
+<class packageName="com.optimisedbuildingsltd.alarmFilter" name="BRegexCheck"></class>
+</module>
+</bajadoc>

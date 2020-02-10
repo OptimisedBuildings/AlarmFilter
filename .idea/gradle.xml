@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/alarmFilter/alarmFilter-doc" />
             <option value="$PROJECT_DIR$/alarmFilter/alarmFilter-rt" />
           </set>
         </option>
